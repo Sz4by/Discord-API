@@ -1,17 +1,24 @@
 {
   "name": "discord-status-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bot a Discord státuszom weboldalra küldéséhez",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "discord",
+    "api",
+    "status"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
   }
 }
